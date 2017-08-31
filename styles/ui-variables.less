@@ -17,10 +17,15 @@
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
-@text-color-error:   hsl(  9, 100%, 64%);
+//@text-color-info:    hsl(219,  79%, 66%);
+//@text-color-success: hsl(140,  44%, 62%);
+//@text-color-warning: hsl( 36,  60%, 72%);
+//@text-color-error:   hsl(  9, 100%, 64%);
+
+@text-color-info:    white;
+@text-color-success: #57bb1e;
+@text-color-warning: #ffe24e;
+@text-color-error:   #f55656;
 
 // Background colors
 @background-color-info:    hsl(208, 100%, 50%);
@@ -33,8 +38,8 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-background-color: #292957;
+@base-border-color:     lighten(@base-background-color, 10%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
