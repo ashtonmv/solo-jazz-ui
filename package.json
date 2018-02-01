@@ -1,13 +1,13 @@
 {
-  "name": "adventure-time-ui",
+  "name": "solo-jazz-ui",
   "theme": "ui",
-  "version": "0.1.0",
-  "description": "A theme based on the Adventure Time palette for iTerm2.",
+  "version": "1.0.0",
+  "description": "The 90-est of all atom themes. Based on the classic Solo Jazz cup design.",
   "keywords": [
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/ashtonmv/adventure-time-ui",
+  "repository": "https://github.com/ashtonmv/solo-jazz-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
